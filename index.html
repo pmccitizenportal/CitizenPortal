@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Citizen</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #efefef;
+            /* Light Grey */
+            color: #efefef;
+            /* Dark Grey */
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #00a5a0;
+            /* Updated Green */
+            padding: 30px 180px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #A5A5A5;
+        }
+
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .col-md-4:nth-child(7) {
+            display: flex;
+            justify-content: center;
+        }
+
+        .col-md-4:nth-child(7) .visualization-card {
+            width: calc(100% - 10px);
+            /* Adjusted width for better spacing */
+        }
+
+        .visualization-card {
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            width: calc(100% - 10px);
+            /* Adjusted width for better spacing */
+            margin: 5px;
+            height: 200px;
+            position: relative;
+            background-color: #ffffff;
+            /* White */
+        }
+
+        .visualization-card:hover {
+            transform: scale(1.005);
+        }
+
+        .visualization-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .visualization-card .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            /* Center align text vertically */
+            justify-content: center;
+            /* Center align text horizontally */
+        }
+
+        .credits-container {
+            background-color: #00a5a0;
+            /* Updated Green */
+            padding: 15px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 0;
+            line-height: 0.7;
+        }
+
+        .credits-container p {
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="text-center">
+            <h1>CitizenOne Platform</h1>
+            <div class="center-content">
+                <p>Experience hassle-free access to essential citizen services with our streamlined platform.
+                    From property tax payments to water bill management, we offer a seamless solution to meet your
+                    needs efficiently and effectively.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://aishwaryasudhakar.github.io/WaterBillingSystem/" target="_blank">
+                    <div class="visualization-card">
+                        <img src="Screenshot 2024-03-30 190324.png" alt="Visualization 1"
+                            style="width: 100%; height: auto;">
+                        <div class="caption">Water Billing Management System</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://aishwaryasudhakar.github.io/PropertyTax/" target="_blank">
+                    <div class="visualization-card">
+                        <img src="Screenshot 2024-03-30 192359.png" alt="Visualization 3"
+                            style="width: 100%; height: auto;">
+                        <div class="caption">Property Tax</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://github.com/aishwaryaSudhakar01/data_analysis_dashboard_smartbridge/blob/main/Usage%20Distribution%20Across%20India.png"
+                    target="_blank">
+                    <div class="visualization-card">
+                        <img src="Screenshot 2024-03-30 195625.png" alt="Visualization 3"
+                            style="width: 100%; height: auto;">
+                        <div class="caption">Complaint Management System</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://github.com/aishwaryaSudhakar01/data_analysis_dashboard_smartbridge/blob/main/Annual%20Usage%20Trend%20Per%20Region%20(Line).png"
+                    target="_blank">
+                    <div class="visualization-card">
+                        <img src="Screenshot 2024-03-30 195821.png" alt="Visualization 4"
+                            style="width: 100%; height: auto;">
+                        <div class="caption">Health Management Information System</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://github.com/aishwaryaSudhakar01/data_analysis_dashboard_smartbridge/blob/main/Electricity%20Consumption%20on%20Diwali%202019%20(HBar).png"
+                    target="_blank">
+                    <div class="visualization-card">
+                        <img src="Screenshot 2024-03-30 200146.png" alt="Visualization 5"
+                            style="width: 100%; height: auto;">
+                        <div class="caption">Participatory Budget</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://github.com/aishwaryaSudhakar01/data_analysis_dashboard_smartbridge/blob/main/Seasonal%20Trend%20Per%20Region%20(Line).png"
+                    target="_blank">
+                    <div class="visualization-card">
+                        <img src="Screenshot 2024-03-30 201633.png" alt="Visualization 6"
+                            style="width: 100%; height: auto;">
+                        <div class="caption">Active RTS Services</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 center-card">
+                <a href="https://github.com/aishwaryaSudhakar01/data_analysis_dashboard_smartbridge/blob/main/Region-Wise%20Distribution%20on%20WeekdaysWeekends%20(SBar).png"
+                    target="_blank">
+                    <div class="visualization-card">
+                        <img src="Screenshot 2024-03-30 201856.png" alt="Visualization 7"
+                            style="width: 100%; height: auto;">
+                        <div class="caption">PMC Care</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="credits-container">
+        <h5>PMC CITIZEN PLATFORM PORTAL DEMO</h5>
+    </div>
+</body>
+
+</html>
